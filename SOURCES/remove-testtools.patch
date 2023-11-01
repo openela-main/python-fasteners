@@ -1,0 +1,14 @@
+diff -r -U3 fasteners-0.14.1-orig/fasteners/test.py fasteners-0.14.1/fasteners/test.py
+--- fasteners-0.14.1-orig/fasteners/test.py	2015-11-13 07:46:46.000000000 +0100
++++ fasteners-0.14.1/fasteners/test.py	2018-06-19 13:38:10.956742064 +0200
+@@ -16,8 +16,8 @@
+ #    License for the specific language governing permissions and limitations
+ #    under the License.
+ 
+-import testtools
++import unittest
+ 
+ 
+-class TestCase(testtools.TestCase):
++class TestCase(unittest.TestCase):
+     pass
